@@ -1,0 +1,15 @@
+.header{
+  border: 2px solid black ;
+  display: flex;
+  /* gap: 700px; */
+  justify-content: space-around;
+  padding-left: px;
+  background-color: #1f2937;
+  color: white;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
