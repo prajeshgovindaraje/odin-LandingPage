@@ -76,7 +76,7 @@ h1{
   max-width: 250px;
 }
 
-/*Information part starts here*/
+                                                                               /*Information part starts here*/
 .info{
   /* border: 2px solid yellow; */
   margin: 0px;
@@ -85,6 +85,7 @@ h1{
   display: flex;
   flex-direction: column;
   gap: 7px;
+  flex-wrap: wrap;
 }
 .info img{
   border: 2px solid #3882f6;
@@ -107,7 +108,7 @@ h1{
 .information{
   margin: 0px;
   padding: 0px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   
 }
 
@@ -121,6 +122,8 @@ h1{
   display: flex;
   justify-content: center;
   gap: 50px;
+  flex-wrap: wrap;
+
 }
 
 .information-heading{
@@ -130,3 +133,59 @@ h1{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+
+                                                              /*Quote-block part starts here*/
+.quote-box{
+  /* border:2px solid red; */
+  padding: 120px 40px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  margin-top: 75px;
+  flex-wrap:wrap-reverse;
+
+  
+
+
+}
+
+.the-quote{
+  /* border:2px solid blue; */
+  padding: 0px;
+  margin: 0px;
+  width: 830px;
+
+}
+
+.the-quote t{
+  padding: 0px;
+  margin: 0px;
+  font-size: 36px;
+  color: rgb(68, 66, 66);
+  font-weight: lighter;
+  font-style: italic;
+ 
+
+}
+
+.the-quote-author{
+  /* border:2px solid green; */
+  width: fit-content;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 400px;
+
+ 
+}
+
+.the-quote-author p{
+  padding: 0px;
+  margin: 0px;
+
+  
+
+}
+
