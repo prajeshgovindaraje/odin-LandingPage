@@ -1,3 +1,7 @@
+body{
+  font-family: arial;
+}
+
 .header{
   /* border: 2px solid black ; */
   display: flex;
@@ -6,6 +10,8 @@
   padding-left: px;
   background-color: #1f2937;
   color: white;
+  flex-wrap: wrap;
+
 }
 
 ul{
@@ -17,7 +23,9 @@ ul{
 
 
 .description{
+
   display: flex;
+  flex-wrap: wrap;
   /* border: 2px solid red */
   background-color: #1f2937;
   color: white;
@@ -66,4 +74,59 @@ button{
 h1{
   margin: 0px;
   max-width: 250px;
+}
+
+/*Information part starts here*/
+.info{
+  /* border: 2px solid yellow; */
+  margin: 0px;
+  padding: 0px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.info img{
+  border: 2px solid #3882f6;
+  height: 120px;
+  width: 120px;
+  margin:0px;
+  padding: 0px;
+  border-radius: 15px;
+  align-self: center;
+
+}
+
+.info p{
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+}
+
+
+.information{
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid red;
+  
+}
+
+.information h2{
+  text-align: center;
+}
+.information-content{
+  /* border: 2px solid green; */
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.information-heading{
+  /* border: 2px solid brown; */
+  margin: 0px;
+  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
